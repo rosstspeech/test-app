@@ -6,8 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@speechmatics/js-sdk": "github:speechmatics/speechmatics-js",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@expo/webpack-config": "^18.0.4",
+    "@types/node": "^20.1.7",
+    "@types/react": "^18.2.6",
+    "typescript": "^5.0.4"
   }
 }
